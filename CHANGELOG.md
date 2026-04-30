@@ -12,6 +12,12 @@ All notable changes to TypiCMS will be documented in this file.
 - Presenter pattern replaced by presenter traits
 - JSON-LD structured data migrated to `<x-core::json-ld>` Blade component for News, Events, Places, Partners, and Pages
 - Croppa 8
+- Cropper.js upgraded from v1 to v2 (Web Components API); `ImageCropper.vue` rewritten
+- Admin Blade layout migrated from `@extends('admin::core.master')` to the component-based `<x-layouts.admin>`
+- Public Blade layout migrated from `@extends('public::core.master')` to the component-based `<x-layouts.public>`
+- Contact form notifications now sent to users holding the `receive contact notifications` permission instead of a single hardcoded address
+- Event registration notifications now sent to users holding the `receive event registration notifications` permission instead of a single hardcoded address
+- Vendor publish tags split by asset type: `typicms-images` (shared), `typicms-fonts`, `typicms-admin-scss`, `typicms-public-scss`, `typicms-admin-js`, `typicms-public-js` (aggregate `typicms-resources` / `typicms-admin-resources` / `typicms-public-resources` preserved)
 - Security fixes
 - View composers removed: use app()->getLocale() in place of $lang and websiteTitle() in place of $websiteTitle
 
@@ -28,6 +34,7 @@ All notable changes to TypiCMS will be documented in this file.
 
 - genealabs/laravel-model-caching
 - Laracasts/Presenter package
+- `typicms.webmaster_email` config and `WEBMASTER_EMAIL` env variable
 
 ## 16.1.8 - 2026-02-21
 
