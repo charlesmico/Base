@@ -21,6 +21,12 @@ export default defineConfig({
             refresh: true,
             assets: ['resources/images/**'],
         }),
-        vue(),
+        vue({
+            template: {
+                compilerOptions: {
+                    isCustomElement: (tag) => tag.startsWith('cropper-'),
+                },
+            },
+        }),
     ],
 });
