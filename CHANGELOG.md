@@ -2,7 +2,7 @@
 
 All notable changes to TypiCMS will be documented in this file.
 
-## 17.0.0 - 2026
+## 17.0.0 - 2026-05-01
 
 ### Changed
 
