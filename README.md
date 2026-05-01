@@ -30,6 +30,9 @@ TypiCMS is a modular multilingual content management system built with [Laravel]
   - [Blocks](#blocks)
   - [Translations](#translations)
   - [Sitemap](#sitemap)
+  - [llms.txt](#llmstxt)
+  - [JSON-LD](#json-ld)
+  - [Markdown responses](#markdown-responses)
   - [Settings](#settings)
   - [History](#history)
 - [Artisan commands](#artisan-commands)
@@ -50,6 +53,8 @@ TypiCMS is a modular multilingual content management system built with [Laravel]
 - **File management** — upload and organize images, documents, and folders with [Uppy](https://uppy.io), image cropping with [Cropper.js](https://fengyuanchen.github.io/cropperjs/), and SVG sanitization on upload
 - **Roles and permissions** — fine-grained access control via [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 - **History log** — create, update, delete, online, and offline events are logged and shown in the dashboard
+- **SEO friendly** — automatic `sitemap.xml`, locale-aware `llms.txt`, and a reusable `<x-json-ld>` Blade component for structured data
+- **Markdown responses** — every public page can be served as Markdown by appending `.md` to the URL or sending an `Accept: text/markdown` header
 - **Vue.js 3** frontend powered by [Vite](https://vitejs.dev) and written in TypeScript
 
 ### URLs
@@ -216,9 +221,29 @@ Retrieve a translation using the standard Laravel helpers: `__('Key')`, `trans('
 
 A sitemap is generated automatically from all published pages. It is available at `/sitemap.xml`.
 
+### llms.txt
+
+A locale-aware [`llms.txt`](https://llmstxt.org) file is generated automatically and served at `/llms.txt`. It lists published pages and module content so that LLM-based agents can discover and index the site.
+
+### JSON-LD
+
+The Pages, News, Events, Places, and Partners modules ship with [Schema.org](https://schema.org) structured data via the reusable `<x-core::json-ld>` Blade component. Use it in your own views to add structured data for any model:
+
+```blade
+<x-core::json-ld :schema="[
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => $model->title,
+]" />
+```
+
+### Markdown responses
+
+Every public route can be served as Markdown thanks to [spatie/laravel-markdown-response](https://github.com/spatie/laravel-markdown-response). Append `.md` to any URL (e.g. `/en/about.md`) or send an `Accept: text/markdown` header, and the same controller will return a Markdown representation of the page — handy for LLM consumption and feeding `llms.txt` clients.
+
 ### Settings
 
-Manage the website title, logo, and other global options in the settings panel.
+Manage the website title, baseline, description, contact details (email, phone, address), logo, and other global options in the settings panel (`/admin/settings`).
 
 ### History
 
