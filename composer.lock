@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee37de3e7af66b497b4fd2de409ece62",
+    "content-hash": "84f66232a15edf73ffe28c31e534f89d",
     "packages": [
         {
             "name": "bkwld/croppa",
@@ -2769,16 +2769,16 @@
         },
         {
             "name": "maatwebsite/excel",
-            "version": "3.1.68",
+            "version": "3.1.69",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpartnerNL/Laravel-Excel.git",
-                "reference": "1854739267d81d38eae7d8c623caf523f30f256b"
+                "reference": "ae5d65b7c9a2fac43bff4d44f796ac95d7a8e760"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpartnerNL/Laravel-Excel/zipball/1854739267d81d38eae7d8c623caf523f30f256b",
-                "reference": "1854739267d81d38eae7d8c623caf523f30f256b",
+                "url": "https://api.github.com/repos/SpartnerNL/Laravel-Excel/zipball/ae5d65b7c9a2fac43bff4d44f796ac95d7a8e760",
+                "reference": "ae5d65b7c9a2fac43bff4d44f796ac95d7a8e760",
                 "shasum": ""
             },
             "require": {
@@ -2786,7 +2786,7 @@
                 "ext-json": "*",
                 "illuminate/support": "5.8.*||^6.0||^7.0||^8.0||^9.0||^10.0||^11.0||^12.0||^13.0",
                 "php": "^7.0||^8.0",
-                "phpoffice/phpspreadsheet": "^1.30.0",
+                "phpoffice/phpspreadsheet": "^1.30.4",
                 "psr/simple-cache": "^1.0||^2.0||^3.0"
             },
             "require-dev": {
@@ -2834,7 +2834,7 @@
             ],
             "support": {
                 "issues": "https://github.com/SpartnerNL/Laravel-Excel/issues",
-                "source": "https://github.com/SpartnerNL/Laravel-Excel/tree/3.1.68"
+                "source": "https://github.com/SpartnerNL/Laravel-Excel/tree/3.1.69"
             },
             "funding": [
                 {
@@ -2846,7 +2846,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-17T20:51:10+00:00"
+            "time": "2026-04-30T20:03:58+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -5095,23 +5095,23 @@
         },
         {
             "name": "spatie/laravel-passkeys",
-            "version": "dev-main",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sdebacker/laravel-passkeys.git",
-                "reference": "ab35f9c460281492a4d1e26062af9b7bf7df23b5"
+                "url": "https://github.com/spatie/laravel-passkeys.git",
+                "reference": "e04bb0bb3b1b7237f0ef6baedd27110128d7dfac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sdebacker/laravel-passkeys/zipball/ab35f9c460281492a4d1e26062af9b7bf7df23b5",
-                "reference": "ab35f9c460281492a4d1e26062af9b7bf7df23b5",
+                "url": "https://api.github.com/repos/spatie/laravel-passkeys/zipball/e04bb0bb3b1b7237f0ef6baedd27110128d7dfac",
+                "reference": "e04bb0bb3b1b7237f0ef6baedd27110128d7dfac",
                 "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^11.0|^12.0|^13.0",
                 "php": "^8.2|^8.3|^8.4",
                 "spatie/laravel-package-tools": "^1.16",
-                "web-auth/webauthn-lib": "^5.3"
+                "web-auth/webauthn-lib": "^5.0|5.3.x-dev as 5.3.0"
             },
             "require-dev": {
                 "larastan/larastan": "^3.4",
@@ -5127,7 +5127,6 @@
                 "phpstan/phpstan-phpunit": "^2.0",
                 "spatie/laravel-ray": "^1.35"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -5142,44 +5141,7 @@
                     "Spatie\\LaravelPasskeys\\Database\\Factories\\": "database/factories/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Spatie\\LaravelPasskeys\\Tests\\": "tests/",
-                    "Workbench\\App\\": "workbench/app/"
-                }
-            },
-            "scripts": {
-                "post-autoload-dump": [
-                    "@composer run prepare"
-                ],
-                "clear": [
-                    "@php vendor/bin/testbench package:purge-laravel-passkeys --ansi"
-                ],
-                "prepare": [
-                    "@php vendor/bin/testbench package:discover --ansi"
-                ],
-                "build": [
-                    "@composer run prepare",
-                    "@php vendor/bin/testbench workbench:build --ansi"
-                ],
-                "start": [
-                    "Composer\\Config::disableProcessTimeout",
-                    "@composer run build",
-                    "@php vendor/bin/testbench serve"
-                ],
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ],
-                "format": [
-                    "vendor/bin/pint"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -5193,20 +5155,21 @@
             "description": "Use passkeys in your Laravel app",
             "homepage": "https://github.com/spatie/laravel-passkeys",
             "keywords": [
-                "Spatie",
                 "laravel",
-                "laravel-passkeys"
+                "laravel-passkeys",
+                "spatie"
             ],
             "support": {
-                "source": "https://github.com/sdebacker/laravel-passkeys/tree/main"
+                "issues": "https://github.com/spatie/laravel-passkeys/issues",
+                "source": "https://github.com/spatie/laravel-passkeys/tree/1.7.2"
             },
             "funding": [
                 {
-                    "type": "github",
-                    "url": "https://github.com/Spatie"
+                    "url": "https://github.com/Spatie",
+                    "type": "github"
                 }
             ],
-            "time": "2026-03-12T10:26:17+00:00"
+            "time": "2026-04-30T13:13:30+00:00"
         },
         {
             "name": "spatie/laravel-permission",
@@ -8867,12 +8830,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "d395b4dd829c4b7f48134257bef757bf07704d1f"
+                "reference": "3c353f85036cd9b633ff3f556090f37074bf060f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/d395b4dd829c4b7f48134257bef757bf07704d1f",
-                "reference": "d395b4dd829c4b7f48134257bef757bf07704d1f",
+                "url": "https://api.github.com/repos/typicms/core/zipball/3c353f85036cd9b633ff3f556090f37074bf060f",
+                "reference": "3c353f85036cd9b633ff3f556090f37074bf060f",
                 "shasum": ""
             },
             "require": {
@@ -8914,7 +8877,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-30T15:16:27+00:00"
+            "time": "2026-05-01T07:14:01+00:00"
         },
         {
             "name": "typicms/form",
@@ -13757,7 +13720,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "spatie/laravel-passkeys": 20,
         "typicms/core": 20,
         "typicms/sidebar": 20
     },
