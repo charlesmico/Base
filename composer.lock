@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84f66232a15edf73ffe28c31e534f89d",
+    "content-hash": "418ecb4b7a6275e0f4d850116cfeb7eb",
     "packages": [
         {
             "name": "bkwld/croppa",
@@ -8826,22 +8826,21 @@
         },
         {
             "name": "typicms/core",
-            "version": "dev-main",
+            "version": "17.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "1b9ec8c77a6847290ab379687752963b8ba2c927"
+                "reference": "0fde0acb9b6fbeff1cbcbb96891aa65be1ec793d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/1b9ec8c77a6847290ab379687752963b8ba2c927",
-                "reference": "1b9ec8c77a6847290ab379687752963b8ba2c927",
+                "url": "https://api.github.com/repos/typicms/core/zipball/0fde0acb9b6fbeff1cbcbb96891aa65be1ec793d",
+                "reference": "0fde0acb9b6fbeff1cbcbb96891aa65be1ec793d",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "~13.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -8869,7 +8868,7 @@
             "description": "The core package of TypiCMS, containing the base architecture, services, and shared components used across all modules.",
             "support": {
                 "issues": "https://github.com/typicms/core/issues",
-                "source": "https://github.com/typicms/core/tree/main"
+                "source": "https://github.com/typicms/core/tree/17.0.1"
             },
             "funding": [
                 {
@@ -8877,7 +8876,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-01T11:46:10+00:00"
+            "time": "2026-05-01T14:24:36+00:00"
         },
         {
             "name": "typicms/form",
@@ -9095,7 +9094,7 @@
         },
         {
             "name": "typicms/sidebar",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/sidebar.git",
@@ -9118,7 +9117,6 @@
                 "mockery/mockery": "^1.6",
                 "phpunit/phpunit": "^11.5.3"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -9145,7 +9143,7 @@
             "description": "A sidebar builder for TypiCMS",
             "support": {
                 "issues": "https://github.com/typicms/sidebar/issues",
-                "source": "https://github.com/typicms/sidebar/tree/main"
+                "source": "https://github.com/typicms/sidebar/tree/2.0.0"
             },
             "time": "2026-05-01T11:23:36+00:00"
         },
@@ -9606,16 +9604,16 @@
         },
         {
             "name": "web-auth/webauthn-lib",
-            "version": "5.3.x-dev",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-auth/webauthn-lib.git",
-                "reference": "1ea7e2cae320f04c75212bf019e845d8d7faf950"
+                "reference": "a272f254c056fb3d6c80a4801d3c7c5fedc6a08d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/1ea7e2cae320f04c75212bf019e845d8d7faf950",
-                "reference": "1ea7e2cae320f04c75212bf019e845d8d7faf950",
+                "url": "https://api.github.com/repos/web-auth/webauthn-lib/zipball/a272f254c056fb3d6c80a4801d3c7c5fedc6a08d",
+                "reference": "a272f254c056fb3d6c80a4801d3c7c5fedc6a08d",
                 "shasum": ""
             },
             "require": {
@@ -9642,7 +9640,6 @@
                 "symfony/event-dispatcher": "Recommended to use dispatched events",
                 "web-token/jwt-library": "Mandatory for fetching Metadata Statement from distant sources"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "thanks": {
@@ -9677,7 +9674,7 @@
                 "webauthn"
             ],
             "support": {
-                "source": "https://github.com/web-auth/webauthn-lib/tree/5.3.x"
+                "source": "https://github.com/web-auth/webauthn-lib/tree/5.3.0"
             },
             "funding": [
                 {
@@ -9689,7 +9686,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-03-22T17:54:03+00:00"
+            "time": "2026-05-01T12:14:37+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -13719,10 +13716,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "typicms/core": 20,
-        "typicms/sidebar": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
