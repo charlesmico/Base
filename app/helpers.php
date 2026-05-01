@@ -90,7 +90,7 @@ if (! function_exists('enabledLocales')) {
 }
 
 if (! function_exists('localeAndRegion')) {
-    function localeAndRegion(?string $separator = null, ?string $locale = null): ?string
+    function localeAndRegion(?string $separator = null): ?string
     {
         $localeAndRegion = Arr::get(config('typicms.locales'), app()->getLocale());
         if (! is_null($separator)) {
@@ -278,8 +278,8 @@ if (! function_exists('pageSectionTemplates')) {
     {
         /** @var FileViewFinder $finder */
         $finder = View::getFinder();
-        $hints = $finder->getHints()['pages'] ?? [];
-        $path = collect($hints)->map(fn (string $hint): string => "{$hint}/public")->first(
+        $hints = $finder->getHints()['public'] ?? [];
+        $path = collect($hints)->map(fn (string $hint): string => "{$hint}/pages")->first(
             fn (string $dir): bool => File::isDirectory($dir),
         );
 
