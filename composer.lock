@@ -2712,25 +2712,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SpartnerNL/Laravel-Excel.git",
-                "reference": "4ff49665499e2698a3861d5804063b1424269e28"
+                "reference": "100d3d34b489049d45b67f94413619ea93f09aa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SpartnerNL/Laravel-Excel/zipball/4ff49665499e2698a3861d5804063b1424269e28",
-                "reference": "4ff49665499e2698a3861d5804063b1424269e28",
+                "url": "https://api.github.com/repos/SpartnerNL/Laravel-Excel/zipball/100d3d34b489049d45b67f94413619ea93f09aa3",
+                "reference": "100d3d34b489049d45b67f94413619ea93f09aa3",
                 "shasum": ""
             },
             "require": {
                 "composer/semver": "^3.3",
                 "ext-json": "*",
-                "illuminate/support": "^11.0||^12.0||^13.0",
-                "php": "^8.2",
+                "illuminate/support": "^12.0||^13.0",
+                "php": "^8.3",
                 "phpoffice/phpspreadsheet": "^5.3",
                 "psr/simple-cache": "^1.0||^2.0||^3.0"
             },
             "require-dev": {
                 "laravel/scout": "^10.0||^11.0",
-                "orchestra/testbench": "^9.0||^10.0||^11.0",
+                "orchestra/testbench": "^10.0||^11.0",
                 "predis/predis": "^1.1"
             },
             "type": "library",
@@ -2785,7 +2785,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-18T15:43:56+00:00"
+            "time": "2026-05-04T20:48:33+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -8766,16 +8766,16 @@
         },
         {
             "name": "typicms/core",
-            "version": "17.0.2",
+            "version": "17.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "9dad728659564e72bbf7317902d18721f291067b"
+                "reference": "abbb0e25613041425edf6fbd63154b668af59710"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/9dad728659564e72bbf7317902d18721f291067b",
-                "reference": "9dad728659564e72bbf7317902d18721f291067b",
+                "url": "https://api.github.com/repos/typicms/core/zipball/abbb0e25613041425edf6fbd63154b668af59710",
+                "reference": "abbb0e25613041425edf6fbd63154b668af59710",
                 "shasum": ""
             },
             "require": {
@@ -8808,7 +8808,7 @@
             "description": "The core package of TypiCMS, containing the base architecture, services, and shared components used across all modules.",
             "support": {
                 "issues": "https://github.com/typicms/core/issues",
-                "source": "https://github.com/typicms/core/tree/17.0.2"
+                "source": "https://github.com/typicms/core/tree/17.0.3"
             },
             "funding": [
                 {
@@ -8816,7 +8816,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-04T10:40:28+00:00"
+            "time": "2026-05-04T22:06:03+00:00"
         },
         {
             "name": "typicms/form",
