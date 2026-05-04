@@ -29,7 +29,7 @@
         "laravel/framework": "^13.0",
         "laravel/prompts": "^0.3.5",
         "laravel/tinker": "^3.0",
-        "maatwebsite/excel": "^3.1",
+        "maatwebsite/excel": "^4.x-dev",
         "spatie/eloquent-sortable": "^5.0.0",
         "spatie/laravel-feed": "^4.4",
         "spatie/laravel-markdown-response": "^1.2",
