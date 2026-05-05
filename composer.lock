@@ -1647,16 +1647,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v13.7.0",
+            "version": "v13.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f13b85b2cce7ef5e8f3bcdf2b6c6364bbdedae0b"
+                "reference": "e7db333a025a1e93ebca7744953069d7719f4bcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f13b85b2cce7ef5e8f3bcdf2b6c6364bbdedae0b",
-                "reference": "f13b85b2cce7ef5e8f3bcdf2b6c6364bbdedae0b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e7db333a025a1e93ebca7744953069d7719f4bcf",
+                "reference": "e7db333a025a1e93ebca7744953069d7719f4bcf",
                 "shasum": ""
             },
             "require": {
@@ -1697,8 +1697,8 @@
                 "symfony/http-kernel": "^7.4.0 || ^8.0.0",
                 "symfony/mailer": "^7.4.0 || ^8.0.0",
                 "symfony/mime": "^7.4.0 || ^8.0.0",
-                "symfony/polyfill-php84": "^1.33",
-                "symfony/polyfill-php85": "^1.33",
+                "symfony/polyfill-php84": "^1.36",
+                "symfony/polyfill-php85": "^1.36",
                 "symfony/polyfill-php86": "^1.36",
                 "symfony/process": "^7.4.5 || ^8.0.5",
                 "symfony/routing": "^7.4.0 || ^8.0.0",
@@ -1867,7 +1867,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-04-28T17:18:25+00:00"
+            "time": "2026-05-05T21:01:14+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -8766,16 +8766,16 @@
         },
         {
             "name": "typicms/core",
-            "version": "17.0.6",
+            "version": "17.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "a2da257845396a9527559c1d85dd97875f05f870"
+                "reference": "6600fb8e4e8359eb9cd6f6987cba5cebd6fae4cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/a2da257845396a9527559c1d85dd97875f05f870",
-                "reference": "a2da257845396a9527559c1d85dd97875f05f870",
+                "url": "https://api.github.com/repos/typicms/core/zipball/6600fb8e4e8359eb9cd6f6987cba5cebd6fae4cf",
+                "reference": "6600fb8e4e8359eb9cd6f6987cba5cebd6fae4cf",
                 "shasum": ""
             },
             "require": {
@@ -8808,7 +8808,7 @@
             "description": "The core package of TypiCMS, containing the base architecture, services, and shared components used across all modules.",
             "support": {
                 "issues": "https://github.com/typicms/core/issues",
-                "source": "https://github.com/typicms/core/tree/17.0.6"
+                "source": "https://github.com/typicms/core/tree/17.0.7"
             },
             "funding": [
                 {
@@ -8816,20 +8816,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-05T16:34:15+00:00"
+            "time": "2026-05-05T21:54:15+00:00"
         },
         {
             "name": "typicms/form",
-            "version": "4.0.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/form.git",
-                "reference": "500f2cccf553bb5e65756d35157e5af621cd2f2a"
+                "reference": "406005357269ec46e5eed8b56c0efbf8f00d00f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/form/zipball/500f2cccf553bb5e65756d35157e5af621cd2f2a",
-                "reference": "500f2cccf553bb5e65756d35157e5af621cd2f2a",
+                "url": "https://api.github.com/repos/typicms/form/zipball/406005357269ec46e5eed8b56c0efbf8f00d00f1",
+                "reference": "406005357269ec46e5eed8b56c0efbf8f00d00f1",
                 "shasum": ""
             },
             "require": {
@@ -8876,7 +8876,7 @@
             "description": "A basic framework agnostic form building package with a few extra niceties like remembering old input and retrieving error messages.",
             "support": {
                 "issues": "https://github.com/typicms/form/issues",
-                "source": "https://github.com/typicms/form/tree/4.0.0"
+                "source": "https://github.com/typicms/form/tree/4.0.1"
             },
             "funding": [
                 {
@@ -8884,7 +8884,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-23T21:05:35+00:00"
+            "time": "2026-05-05T21:33:16+00:00"
         },
         {
             "name": "typicms/laravel-translatable-bootforms",
