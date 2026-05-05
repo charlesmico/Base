@@ -8766,16 +8766,16 @@
         },
         {
             "name": "typicms/core",
-            "version": "17.0.3",
+            "version": "17.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "abbb0e25613041425edf6fbd63154b668af59710"
+                "reference": "86565b8ca64d875a711d1d686d55fc03a2f04130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/abbb0e25613041425edf6fbd63154b668af59710",
-                "reference": "abbb0e25613041425edf6fbd63154b668af59710",
+                "url": "https://api.github.com/repos/typicms/core/zipball/86565b8ca64d875a711d1d686d55fc03a2f04130",
+                "reference": "86565b8ca64d875a711d1d686d55fc03a2f04130",
                 "shasum": ""
             },
             "require": {
@@ -8808,7 +8808,7 @@
             "description": "The core package of TypiCMS, containing the base architecture, services, and shared components used across all modules.",
             "support": {
                 "issues": "https://github.com/typicms/core/issues",
-                "source": "https://github.com/typicms/core/tree/17.0.3"
+                "source": "https://github.com/typicms/core/tree/17.0.4"
             },
             "funding": [
                 {
@@ -8816,7 +8816,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-04T22:06:03+00:00"
+            "time": "2026-05-05T09:24:10+00:00"
         },
         {
             "name": "typicms/form",
@@ -10033,16 +10033,16 @@
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "6a9c2f0970022ab00dc58c07d0685dd712f2231b"
+                "reference": "86d8208fc3c649a3a999daf1a63c25201be2990f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/6a9c2f0970022ab00dc58c07d0685dd712f2231b",
-                "reference": "6a9c2f0970022ab00dc58c07d0685dd712f2231b",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/86d8208fc3c649a3a999daf1a63c25201be2990f",
+                "reference": "86d8208fc3c649a3a999daf1a63c25201be2990f",
                 "shasum": ""
             },
             "require": {
@@ -10086,7 +10086,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.7.2"
+                "source": "https://github.com/composer/class-map-generator/tree/1.7.3"
             },
             "funding": [
                 {
@@ -10098,7 +10098,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-30T15:36:56+00:00"
+            "time": "2026-05-05T09:17:07+00:00"
         },
         {
             "name": "composer/xdebug-handler",
