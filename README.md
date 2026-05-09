@@ -74,7 +74,7 @@ The CMS manages the following URL patterns:
 ## Requirements
 
 - PHP 8.4+
-- One of the database engines supported by Laravel (MySQL, PostgreSQL, SQLite, SQL Server)
+- MySQL, MariaDB, or PostgreSQL
 
 For all server requirements, see the [Laravel deployment documentation](https://laravel.com/docs/master/deployment#server-requirements).
 
