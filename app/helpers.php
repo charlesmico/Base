@@ -92,7 +92,8 @@ if (! function_exists('enabledLocales')) {
 if (! function_exists('localeAndRegion')) {
     function localeAndRegion(?string $separator = null): ?string
     {
-        $localeAndRegion = Arr::get(config('typicms.locales'), app()->getLocale());
+        $locales = config('typicms.locales') + config('typicms.admin_locales');
+        $localeAndRegion = Arr::get($locales, app()->getLocale());
         if (! is_null($separator)) {
             return str_replace('_', $separator, $localeAndRegion);
         }
