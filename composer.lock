@@ -3252,16 +3252,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.3",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe"
+                "reference": "7da6c396d7ebe142bc857c20479d5e70a5e1aac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/bb3ea637e3d131d72acc033cfc2746ee893349fe",
-                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe",
+                "url": "https://api.github.com/repos/nette/utils/zipball/7da6c396d7ebe142bc857c20479d5e70a5e1aac7",
+                "reference": "7da6c396d7ebe142bc857c20479d5e70a5e1aac7",
                 "shasum": ""
             },
             "require": {
@@ -3337,9 +3337,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.3"
+                "source": "https://github.com/nette/utils/tree/v4.1.4"
             },
-            "time": "2026-02-13T03:05:33+00:00"
+            "time": "2026-05-11T20:49:54+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4819,16 +4819,16 @@
         },
         {
             "name": "spatie/laravel-markdown-response",
-            "version": "1.2.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-markdown-response.git",
-                "reference": "a48db8f95e6cd7e2451d549e27e59651d5376757"
+                "reference": "f78a44fde978241b6bb968d7d58f58b3eef44d72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-markdown-response/zipball/a48db8f95e6cd7e2451d549e27e59651d5376757",
-                "reference": "a48db8f95e6cd7e2451d549e27e59651d5376757",
+                "url": "https://api.github.com/repos/spatie/laravel-markdown-response/zipball/f78a44fde978241b6bb968d7d58f58b3eef44d72",
+                "reference": "f78a44fde978241b6bb968d7d58f58b3eef44d72",
                 "shasum": ""
             },
             "require": {
@@ -4889,7 +4889,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-markdown-response/issues",
-                "source": "https://github.com/spatie/laravel-markdown-response/tree/1.2.0"
+                "source": "https://github.com/spatie/laravel-markdown-response/tree/1.2.2"
             },
             "funding": [
                 {
@@ -4897,20 +4897,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-18T07:57:39+00:00"
+            "time": "2026-05-11T08:39:40+00:00"
         },
         {
             "name": "spatie/laravel-one-time-passwords",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-one-time-passwords.git",
-                "reference": "e67430d9cfabcedda67ec8d276c9145c8db1e08a"
+                "reference": "45ca723dcd0ccd25268850dc1185b2038e0c1a85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-one-time-passwords/zipball/e67430d9cfabcedda67ec8d276c9145c8db1e08a",
-                "reference": "e67430d9cfabcedda67ec8d276c9145c8db1e08a",
+                "url": "https://api.github.com/repos/spatie/laravel-one-time-passwords/zipball/45ca723dcd0ccd25268850dc1185b2038e0c1a85",
+                "reference": "45ca723dcd0ccd25268850dc1185b2038e0c1a85",
                 "shasum": ""
             },
             "require": {
@@ -4965,7 +4965,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-one-time-passwords/issues",
-                "source": "https://github.com/spatie/laravel-one-time-passwords/tree/1.1.0"
+                "source": "https://github.com/spatie/laravel-one-time-passwords/tree/1.1.1"
             },
             "funding": [
                 {
@@ -4973,7 +4973,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-08T07:34:03+00:00"
+            "time": "2026-05-11T08:30:31+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",
@@ -5038,16 +5038,16 @@
         },
         {
             "name": "spatie/laravel-passkeys",
-            "version": "1.7.2",
+            "version": "1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-passkeys.git",
-                "reference": "e04bb0bb3b1b7237f0ef6baedd27110128d7dfac"
+                "reference": "f778b1e629a2f71806358d69ac71ad7439bf0de0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-passkeys/zipball/e04bb0bb3b1b7237f0ef6baedd27110128d7dfac",
-                "reference": "e04bb0bb3b1b7237f0ef6baedd27110128d7dfac",
+                "url": "https://api.github.com/repos/spatie/laravel-passkeys/zipball/f778b1e629a2f71806358d69ac71ad7439bf0de0",
+                "reference": "f778b1e629a2f71806358d69ac71ad7439bf0de0",
                 "shasum": ""
             },
             "require": {
@@ -5104,7 +5104,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-passkeys/issues",
-                "source": "https://github.com/spatie/laravel-passkeys/tree/1.7.2"
+                "source": "https://github.com/spatie/laravel-passkeys/tree/1.7.3"
             },
             "funding": [
                 {
@@ -5112,7 +5112,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-30T13:13:30+00:00"
+            "time": "2026-05-11T07:52:22+00:00"
         },
         {
             "name": "spatie/laravel-permission",
@@ -5277,16 +5277,16 @@
         },
         {
             "name": "spatie/laravel-responsecache",
-            "version": "8.3.1",
+            "version": "8.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-responsecache.git",
-                "reference": "dfdf5b3262688804e8ec1cf0e2e572935234b3cd"
+                "reference": "a8a685cceafdebc201c6cc228d330f38b9b55e2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/dfdf5b3262688804e8ec1cf0e2e572935234b3cd",
-                "reference": "dfdf5b3262688804e8ec1cf0e2e572935234b3cd",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/a8a685cceafdebc201c6cc228d330f38b9b55e2c",
+                "reference": "a8a685cceafdebc201c6cc228d330f38b9b55e2c",
                 "shasum": ""
             },
             "require": {
@@ -5348,7 +5348,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-responsecache/issues",
-                "source": "https://github.com/spatie/laravel-responsecache/tree/8.3.1"
+                "source": "https://github.com/spatie/laravel-responsecache/tree/8.4.0"
             },
             "funding": [
                 {
@@ -5360,7 +5360,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-15T13:01:02+00:00"
+            "time": "2026-05-11T08:22:08+00:00"
         },
         {
             "name": "spatie/php-attribute-reader",
@@ -8782,16 +8782,16 @@
         },
         {
             "name": "typicms/core",
-            "version": "17.0.9",
+            "version": "17.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "bef573dcd0709dc2c515d3c50488b12371ae4a4d"
+                "reference": "b91caa8e80bcf88969acb6d6d8503894f0f2ffb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/bef573dcd0709dc2c515d3c50488b12371ae4a4d",
-                "reference": "bef573dcd0709dc2c515d3c50488b12371ae4a4d",
+                "url": "https://api.github.com/repos/typicms/core/zipball/b91caa8e80bcf88969acb6d6d8503894f0f2ffb7",
+                "reference": "b91caa8e80bcf88969acb6d6d8503894f0f2ffb7",
                 "shasum": ""
             },
             "require": {
@@ -8824,7 +8824,7 @@
             "description": "The core package of TypiCMS, containing the base architecture, services, and shared components used across all modules.",
             "support": {
                 "issues": "https://github.com/typicms/core/issues",
-                "source": "https://github.com/typicms/core/tree/17.0.9"
+                "source": "https://github.com/typicms/core/tree/17.0.18"
             },
             "funding": [
                 {
@@ -8832,7 +8832,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-08T09:17:28+00:00"
+            "time": "2026-05-13T09:50:43+00:00"
         },
         {
             "name": "typicms/form",
@@ -12546,16 +12546,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "e645b6463c6a88ea5b44b17d3387d35a912c7946"
+                "reference": "891824c6c59f02a56a5dd58ea8edc44e6c0ece29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/e645b6463c6a88ea5b44b17d3387d35a912c7946",
-                "reference": "e645b6463c6a88ea5b44b17d3387d35a912c7946",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/891824c6c59f02a56a5dd58ea8edc44e6c0ece29",
+                "reference": "891824c6c59f02a56a5dd58ea8edc44e6c0ece29",
                 "shasum": ""
             },
             "require": {
@@ -12594,7 +12594,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.4.2"
+                "source": "https://github.com/rectorphp/rector/tree/2.4.3"
             },
             "funding": [
                 {
@@ -12602,7 +12602,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-16T13:07:34+00:00"
+            "time": "2026-05-12T11:17:24+00:00"
         },
         {
             "name": "sebastian/cli-parser",
