@@ -8782,16 +8782,16 @@
         },
         {
             "name": "typicms/core",
-            "version": "17.0.19",
+            "version": "17.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typicms/core.git",
-                "reference": "1c987b0c7dd950dae8273c7e8b75b810f939c673"
+                "reference": "64e2999c85f11d43cdb446d32a305c14ca05cfd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typicms/core/zipball/1c987b0c7dd950dae8273c7e8b75b810f939c673",
-                "reference": "1c987b0c7dd950dae8273c7e8b75b810f939c673",
+                "url": "https://api.github.com/repos/typicms/core/zipball/64e2999c85f11d43cdb446d32a305c14ca05cfd0",
+                "reference": "64e2999c85f11d43cdb446d32a305c14ca05cfd0",
                 "shasum": ""
             },
             "require": {
@@ -8824,7 +8824,7 @@
             "description": "The core package of TypiCMS, containing the base architecture, services, and shared components used across all modules.",
             "support": {
                 "issues": "https://github.com/typicms/core/issues",
-                "source": "https://github.com/typicms/core/tree/17.0.19"
+                "source": "https://github.com/typicms/core/tree/17.0.20"
             },
             "funding": [
                 {
@@ -8832,7 +8832,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-18T10:46:00+00:00"
+            "time": "2026-05-18T12:14:52+00:00"
         },
         {
             "name": "typicms/form",
@@ -12058,11 +12058,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.1.54",
+            "version": "2.1.55",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8be50c3992107dc837b17da4d140fbbdf9a5c5bd",
-                "reference": "8be50c3992107dc837b17da4d140fbbdf9a5c5bd",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9eaac3826ed5e9b8427350a43cac825eeca3f566",
+                "reference": "9eaac3826ed5e9b8427350a43cac825eeca3f566",
                 "shasum": ""
             },
             "require": {
@@ -12107,7 +12107,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-29T13:31:09+00:00"
+            "time": "2026-05-18T11:57:34+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
